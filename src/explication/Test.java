@@ -12,6 +12,18 @@ System.out.println(v.getMarque()+" "+v.getCouleur()+" "+v.getPrix());
 // affichage
 Voiture v2=new Voiture("BMW", "noir", 72000);
 System.out.println(v2.toString());
+if(v.getPrix()>=50000)
+{
+System.out.println("voiture de lux");	
+}
+else
+{
+System.out.println("voiture à la porté!");	
+}
+if(v.getMarque()=="BMW")
+{
+System.out.println("belle marque");	
+}
 
 }
 }
