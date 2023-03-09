@@ -11,6 +11,8 @@ public class Demo {
 		x+=3; // x=x+3;
 		x++; // x+1
 		x--;// x=x-1
+		boolean b2=x==1; // la comparaison de x avec 1
+		b2= x!=1; // x est différent de 1
 		y-=1.45; // y=y-1.45
 		int z=(int) y; 
 		// casting de y dans z (prendre l'entier)
