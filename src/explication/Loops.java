@@ -15,6 +15,23 @@ for(int i=x;  i<=y;i++)
 	}
 	
 }
+int a=3;
+int b=7;
+/*while(a>b)
+{
+	System.out.println(b);
+	b--;
+}
+
+*/
+do
+{
+	System.out.println(b);
+	b--;
+}
+while(a>b);
+	
 	}
 
+	
 }
