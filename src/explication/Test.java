@@ -24,6 +24,10 @@ if(v.getMarque()=="BMW")
 {
 System.out.println("belle marque");	
 }
+Switching switching=new Switching();
+switching.setJour(3);
+switching.detectJour();
+
 
 }
 }
